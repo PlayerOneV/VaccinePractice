@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS situacional-->
+    <link rel="stylesheet" href="style.css">
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--Google icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <title>Vaccination</title>
+</head>
+
+<body>
+    <!--------------------------------------------------Menú (Cambiar fuente y color del texto, arreglar el menu responsivo)------------------------------------------------->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparency-75 fixed-top pt-3 pb-3">
+            <div class="container">
+                <a class="navbar-brand" href="#" style="color: rgba(30,63,114,255); font-size: xx-large;">Vaccination</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
+                        <li class="nav-item m-1">
+                            <a class="nav-link menuOpciones" href="#" style="font-size: large;">Database</a>
+                        </li>
+                        <li class="nav-item m-1">
+                            <a class="nav-link menuOpciones" href="#" style="font-size: large;">Education</a>
+                        </li>
+                        <li class="nav-item m-1">
+                            <a class="nav-link menuOpciones" href="#" style="font-size: large;">News</a>
+                        </li>
+                        <li class="nav-item m-1">
+                            <a class="nav-link menuOpciones" href="#" style="font-size: large;">Regulation</a>
+                        </li>
+                        <li class="nav-item m-1">
+                            <button type="button" class="btn btn-primary" style="font-size: large;">Hoax Buster</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-----------------------------------------------------------Primera sección (Mejorar iconos y shadowborder)--------------------------------------------------------------->
+    <div class="container-fluid d-flex vh-85 p-0">
+        <!--Empieza la primera sección-->
+        <div class="w-50 d-flex justify-content-center align-items-center ps-6">
+            <div class="">
+                <h1 class="display-3 fw-bold titleColor">Fight Virus <br> With Vaccines</h1>
+                <p class="pt-2">Let's stop this pandemic by killing the virus <br>
+                    with a vaccine, don't let yourself and your <br>
+                    family get infected
+                </p>
+                <div class="pt-4 pb-5">
+                    <i class="material-icons yellow_shadow me-2" style="font-size: medium;">verified_user</i>
+                    <span>Best protection</span>
+                    <i class="material-icons yellow_shadow me-2 ms-5" style="font-size: medium;">star</i>
+                    <span>Selected Vaccines</span>
+                </div>
+                <div class="pt-5">
+                    <i class="material-icons blue-shadow" style="font-size: medium;">watch_later</i>
+                    <span>Schedule your vaccinations</span>
+                </div>
+                <div class="w-100 bg-transparency-75 mt-5 ps-4 pt-2 pe-4">
+                    <div class="d-flex justify-content-around flex-wrap  my-4 ">
+                        <div class="mx-2">
+                            <h6 class="mb-4 text-muted"> <i class=" material-icons blue-shadow me-2">place</i> Location </h6>
+                            <h5 class="text-center titleColor ">Jakarta Utara</h5>
+                        </div>
+                        <div class="mx-2">
+                            <h6 class="mb-4 text-muted"><i class="material-icons blue-shadow me-2">calendar_month</i> Date</h6>
+                            <h5 class="text-center titleColor ">08 July 2021</h5>
+                        </div>
+                        <div class="mx-2">
+                            <h6 class="mb-4 text-muted"> <i class="material-icons blue-shadow me-2">border_color</i> Vaccine Type</h6>
+                            <h5 class="text-center titleColor ">Moderna</h5>
+                        </div>
+                        <div class="d-flex align-items-center ms-3"><a class="btn btn-primary px-5 py-2"> Submit </a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="" style="width: 57%;">
+            <img src="image/img1.png" alt="Vaccination" class="img1Background">
+        </div>
+    </div>
+
+    <!-------------------------------------------------------------------------Logos vacunas---------------------------------------------------------------------------------->
+    <div class="container-fluid pt-4 d-flex justify-content-center">
+        <img src="image/vacunas.png" alt="Vacunas logos" width="70%" height="100%">
+    </div>
+
+    <!------------------------------------------------------------------------Segunda sección------------------------------------------------------------------------------------------------------>
+    <div class="container d-flex justify-content-start">
+        <div class="pt-5">
+            <h1 class="display-5 fw-bold titleColor">Why should I vaccine?</h1>
+            <p class="pt-2">In order to avoid any doubts about getting the COVID-19<br>
+                vaccine, identify the following 4 benefits of COVID-19<br>
+                vaccination :
+            </p>
+        </div>
+    </div>
+    
+    <!-------------------------------------------------------------------------Cards----------------------------------------------------------------------------------------------->
+    <div class="container content-row mb-5 mt-5">
+        <div class="row justify-content-md-between">
+            <div class="col col-lg-3 col-md-6">
+                <div class="card h-100">
+                    <div class="card-body ps-4 pt-4 pb-5">
+                        <i class="material-icons blue-shadow">trending_down</i>
+                        <h4 class="pt-3 titleColor">Minimize the <br> spread of viruses</h4>
+                        <p class="card-text textCard pt-2 pb-4">Vaccine has been proven <br> effective to prevent someone <br>from getting infected with Coronavirus</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-lg-3 col-md-6">
+                <div class="card h-100">
+                    <div class="card-body ps-4 pt-4">
+                        <i class="material-icons blue-shadow">verified_user</i>
+                        <h4 class="pt-3 titleColor">Forming<br>antibodies</h4>
+                        <p class="card-text textCard pt-2">COVID-19 vaccine proven to <br> help shape antibody <br> response for immune system</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-lg-3 col-md-6">
+                <div class="card h-100">
+                    <div class="card-body ps-4 pt-4">
+                        <i class="material-icons blue-shadow">groups</i>
+                        <h4 class="pt-3 titleColor">Protecting <br> people nearby</h4>
+                        <p class="card-text textCard pt-2">The benefits of COVID-19 <br> vaccination are the vaccine <br> that we can also help <br> protect people around us</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-lg-3 col-md-6">
+                <div class="card h-100">
+                    <div class="card-body ps-4 pt-4">
+                        <i class="material-icons blue-shadow">insights</i>
+                        <h4 class="pt-3 titleColor">Creating group<br>immunity</h4>
+                        <p class="card-text textCard pt-2">COVID-19 vaccination is also <br> beneficial for creating group <br> immunity or herd immunity</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------------------------------------------------Tercera sección---------------------------------------------------------------------------------->
+    <div class="container-fluid d-flex vh-85 p-0 pb-5">
+        <div class="w-50">
+            <img src="image/img2.png" alt="options" class="img2Background">
+        </div>
+        <div class="w-50 d-flex justify-content-start">
+            <div class="ms-5">
+                <div class="pb-3">
+                    <h1 class="display-5 fw-bold titleColor">Preparations Before Vaccine</h1>
+                    <p class="pt-2 textto">The success of vaccines is strongly influenced by the <br>
+                        strenght of the body's immune system. Therefored, there are <br>
+                        several things that can be tried to make the COVID-19 <br>
+                        vaccine work:
+                    </p>
+                </div>
+                <!-----------------------------------------------------------------------------------Acordiones---------------------------------------------------------------------------------------------->
+                <div class="accordion mt-5" id="accordionExample">
+                    <div class="accordion-item mb-6">
+                        <h2 class="accordion-header" id="heading1">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                                <i class="material-icons blue-shadow ms-3 me-3" style="font-size: large;">gpp_bad</i>
+                                <h5 class="titleColor">Avoid alcoholic beverages</h5>
+                            </button>
+                        </h2>
+                        <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body" style="padding-left: 85px;">
+                                <p>
+                                    Stress has a profound effect on immune work. <br>
+                                    Moreover, prolonged stress can increase cortisol <br>
+                                    production and oxidative stress in the body.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-top mb-6">
+                        <h2 class="accordion-header" id="heading2">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                <i class="material-icons blue-shadow ms-3 me-3"
+                                    style="font-size: large;">disabled_by_default</i>
+                                <h5 class="titleColor">Avoid stress</h5>
+                            </button>
+                        </h2>
+                        <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body" style="padding-left: 85px;">
+                                <p>
+                                    Stress has a profound effect on immune work. <br>
+                                    Moreover, prolonged stress can increase cortisol <br>
+                                    production and oxidative stress in the body.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-top mb-6">
+                        <h2 class="accordion-header" id="heading3">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                <i class="material-icons blue-shadow ms-3 me-3" style="font-size: large;">assessment</i>
+                                <h5 class="titleColor">Eat healthy food</h5>
+                            </button>
+                        </h2>
+                        <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body" style="padding-left: 85px;">
+                                <p>
+                                    Stress has a profound effect on immune work. <br>
+                                    Moreover, prolonged stress can increase cortisol <br>
+                                    production and oxidative stress in the body.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-top mb-6">
+                        <h2 class="accordion-header" id="heading4">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                <i class="material-icons blue-shadow ms-3 me-3" style="font-size: large;">check_box</i>
+                                <h5 class="titleColor">Get enough sleep</h5>
+                            </button>
+                        </h2>
+                        <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body" style="padding-left: 85px;">
+                                <p>
+                                    Stress has a profound effect on immune work. <br>
+                                    Moreover, prolonged stress can increase cortisol <br>
+                                    production and oxidative stress in the body.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-top">
+                        <h2 class="accordion-header" id="heading5">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                <i class="material-icons blue-shadow ms-3 me-3" style="font-size: large;">favorite</i>
+                                <h5 class="titleColor">Exercise or physical activity</h5>
+                            </button>
+                        </h2>
+                        <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body" style="padding-left: 85px;">
+                                <p>
+                                    Stress has a profound effect on immune work. <br>
+                                    Moreover, prolonged stress can increase cortisol <br>
+                                    production and oxidative stress in the body.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-----------------------------------------------------------------------Cuarta sección------------------------------------------------------------------------------------->
+    <div class="container-fluid d-flex vh-85 p-0 mt-5 pt-5 mb-5">
+        <div class="w-50 ">
+            <div class="ms-5">
+                <div class="pb-3 ps-6">
+                    <h1 class="display-5 fw-bold titleColor">Emergency Contact</h1>
+                    <p class="pt-4 textto">Contact one of the contacts below if you or your fammily feel <br>
+                        unwell and have similar symptoms such as Covid-19, make <br>
+                        sure you also take care of yourself before reporting to us: <br>
+                    </p>
+                </div>
+                <div style="margin-left: 150px; margin-top: 120px;">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="card w-75">
+                                <div class="card-body">
+                                    <h5 class="card-title d-flex ms-3 mt-3">
+                                        <div class="">
+                                            <i class="material-icons blue-shadow"
+                                                style="font-size: xx-large;">phone_in_talk</i>
+                                        </div>
+                                        <div class="ms-3">
+                                            <h5 class="titleColor" style="margin-bottom: 0;">Call</h5>
+                                            <p class="card-text contactInfo mt-2">021.123.145.14</p>
+                                        </div>
+                                    </h5>
+                                    <a href="#" class="btn btn-lg btn-primary mt-5 w-75"
+                                        style="margin-left: 30px; margin-bottom: 30px;">Call now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card w-75">
+                                <div class="card-body">
+                                    <h5 class="card-title d-flex ms-3 mt-3">
+                                        <div class="">
+                                            <i class="material-icons blue-shadow"
+                                                style="font-size: xx-large;">textsms</i>
+                                        </div>
+                                        <div class="ms-3">
+                                            <h5 class="titleColor" style="margin-bottom: 0;">Chat</h5>
+                                            <p class="card-text contactInfo mt-2">021.123.145.14</p>
+                                        </div>
+                                    </h5>
+                                    <a href="#" class="btn btn-lg btn-primary mt-5 w-75"
+                                        style="margin-left: 30px; margin-bottom: 30px;">Chat Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-6">
+                        <div class="col-sm-6">
+                            <div class="card w-75">
+                                <div class="card-body">
+                                    <h5 class="card-title d-flex ms-3 mt-3">
+                                        <div class="">
+                                            <i class="material-icons blue-shadow"
+                                                style="font-size: xx-large;">videocam</i>
+                                        </div>
+                                        <div class="ms-3">
+                                            <h5 class="titleColor" style="margin-bottom: 0;">Video Call</h5>
+                                            <p class="card-text contactInfo mt-2">021.123.145.14</p>
+                                        </div>
+                                    </h5>
+                                    <a href="#" class="btn btn-lg btn-primary mt-5 w-75"
+                                        style="margin-left: 30px; margin-bottom: 30px;">Video Call Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card w-75">
+                                <div class="card-body">
+                                    <h5 class="card-title d-flex ms-3 mt-3">
+                                        <div class="">
+                                            <i class="material-icons blue-shadow"
+                                                style="font-size: xx-large;">email</i>
+                                        </div>
+                                        <div class="ms-3">
+                                            <h5 class="titleColor" style="margin-bottom: 0;">Message</h5>
+                                            <p class="card-text contactInfo mt-2">021.123.145.14</p>
+                                        </div>
+                                    </h5>
+                                    <a href="#" class="btn btn-lg btn-primary mt-5 w-75"
+                                        style="margin-left: 30px; margin-bottom: 30px;">Message Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-50 pt-6">
+            <img src="image/img3.png" alt="contacts" class="img2Background" height="95%" >
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="container-fluid" style="background-color: rgba(238,243,255,255);">
+        <footer class="row row-cols-5 py-5">
+          <div class="col" style="padding-left: 150px;">
+            <h1 class="titleColor">Vaccination</h1>
+            <p>Our goal is to help the <br>
+                world free from the <br>
+                ongoing pandemic
+            </p>
+          </div>
+      
+          <div class="col"></div>
+      
+          <div class="col">
+            <h5 class="titleColor">About</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="p-0 text-muted" style="text-decoration:none">About us</a></li>
+              <li class="nav-item mb-2"><a href="#" class="p-0 text-muted" style="text-decoration:none">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="p-0 text-muted" style="text-decoration:none">News & Blog</a></li>
+            </ul>
+          </div>
+      
+          <div class="col">
+            <h5 class="titleColor">Company</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="p-0 text-muted" style="text-decoration:none">How We Work?</a></li>
+              <li class="nav-item mb-2"><a href="#" class="p-0 text-muted" style="text-decoration:none">Capital</a></li>
+              <li class="nav-item mb-2"><a href="#" class="p-0 text-muted" style="text-decoration:none">Security</a></li>
+            </ul>
+          </div>
+      
+          <div class="col">
+            <h5 class="titleColor">Support</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="p-0 text-muted" style="text-decoration:none">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="p-0 text-muted" style="text-decoration:none">Support Center</a></li>
+              <li class="nav-item mb-2"><a href="#" class="p-0 text-muted" style="text-decoration:none">Contact Us</a></li>
+            </ul>
+          </div>
+        </footer>
+        <div class="d-flex justify-content-between pb-4">
+            <span class="text-muted" style="padding-left: 140px;">@2021 Vaccination. All rights reserved.</span>
+            <div style="padding-right: 300px;">
+                <a href="#" class="text-muted" style="text-decoration:none"><span>Terms & agrements</span></a>
+                <a href="#" class="text-muted ms-5" style="text-decoration:none"><span> Privacy Policy</span></a>
+            </div>
+        </div>
+      </div>
+    
+    
+      <!--Bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+    <!--Ionicons-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

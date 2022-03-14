@@ -1,0 +1,93 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .ms-6{
+        margin-left: 300px;
+    }
+    .ptS{
+        padding-top: 0;
+    }
+}
+
+.vh-100{
+    min-height: 100vh;
+}
+
+.vh-85{
+    min-height: 85vh;
+}
+
+.bg-transparency-75{
+    background-color: rgba(233, 231, 231, 0.75);
+    box-shadow: 0px 0px 20px 12px rgb(0 0 0 / 20%);
+}
+
+.ps-6{
+    padding-left: 145px;
+}
+.pt-6{
+    padding-top: 100px;
+}
+.paddingCards{
+    padding-left: 180px;
+    padding-right: 200px;
+
+}
+.mt-6{
+    padding-top: 195px;
+}
+.mb-6{
+    margin-bottom: 115px;
+}
+
+p{
+    color: rgba(108,123,146,255);
+    font-size: 20px;    
+}
+
+.textto{
+    font-size: x-large;
+}
+
+.contactInfo{
+    font-size: medium;
+}
+
+.blue-shadow {
+    color: rgba(47,79,204,255);
+    box-shadow: 1px 1px 1px 1px rgba(241,245,255,255);
+    background-color: rgba(241,245,255,255);
+    padding: 0.4em 0.4em;
+}
+.yellow_shadow {
+    color: rgba(254,208,19,255);
+    box-shadow: 1px 1px 1px 1px rgba(255,249,227,255);
+    background-color: rgba(255,249,227,255);
+    padding: 0.4em 0.4em;
+}
+
+.textCard{
+    font-size: 17px;
+}
+
+.img1Background{
+    background:-webkit-gradient(linear, left top, right bottom, from(rgba(6,154,231,255)), to(#3861db));
+    background:linear-gradient(to bottom right, rgba(6,154,231,255), #3861db);
+    width:100%
+}
+
+.img2Background{
+    background:-webkit-gradient(linear, left top, right bottom, from(rgba(6,154,231,255)), to(#3861db));
+    background:linear-gradient(to bottom right, rgba(6,154,231,255), #3861db);
+    background-size:100% 73%;
+    background-position-y:bottom;
+    background-repeat:no-repeat;
+    width:100%;
+}
+
+.menuOpciones{
+    color: rgba(108,123,146,255);
+}
+
+.titleColor{
+    color: rgba(30,63,114,255);
+}
